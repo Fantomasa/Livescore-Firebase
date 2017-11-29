@@ -50,6 +50,7 @@ namespace LiveScore
 
             while (true)
             {
+                //add comment to check commit
                 await RequestLiveEventsAsync();
                 await RequestTodayEventsAsync();
                 await Task.Delay(3000);
